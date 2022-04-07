@@ -1,0 +1,12 @@
+--create table if not exists registerTable(
+-- id serial primary key,
+-- studentId integer,
+-- discipline varchar(250),
+-- foreign key(studentId) references studentTable (id));
+--
+--
+--create table if not exists studentTable (
+--                    id serial primary key,
+--                    firstName varchar(250),
+--                    lastName varchar(250),
+--                    groupNum int);
